@@ -1,4 +1,4 @@
 module.exports = {
-  port: 88,
+  port: 80,
   api_base_path: "",
 };

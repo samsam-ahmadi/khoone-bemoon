@@ -10,7 +10,6 @@ RUN yarn
 
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
-ENV PORT 80
 EXPOSE 80
 
 RUN yarn run build

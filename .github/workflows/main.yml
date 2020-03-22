@@ -29,7 +29,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install --upgrade fandogh_cli
-      - name: Build and publish
+      - name: Deploy to Fandogh
         env:
           COLLECT_ERROR: false
           F_USERNAME: ${{ secrets.FANDOGH_USERNAME }}

@@ -21,5 +21,5 @@ export const theme: DefaultTheme = {
   mobile: "600px",
   tablet: "960px",
   laptop: "1280px",
-  desktop: "1920px",
+  desktop: "1650px",
 };

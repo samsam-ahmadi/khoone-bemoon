@@ -6,7 +6,7 @@ import Container from "components/Container";
 export default function About(): ReactElement {
   return (
     <AboutWrapper as="section" id="#about" name="about">
-      <Container>
+      <Container className="container">
         <Box alignItems="center">
           <img
             src="/images/user-paints.png"
@@ -54,12 +54,14 @@ const AboutWrapper = styled(Box)`
   }
 
   @media (max-width: ${p => p.theme.mobile}) {
-    flex-direction: column;
     height: auto;
     padding: 35px 0px;
-    img {
-      height: 100%;
-      width: 100%;
+    .container {
+      flex-direction: column;
+      img {
+        height: 100%;
+        width: 100%;
+      }
     }
   }
 `;

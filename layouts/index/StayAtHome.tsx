@@ -28,7 +28,7 @@ export default function StayAtHome(): ReactElement {
 
       <DownloadDefault column alignItems="center" justifyContent="center">
         <img src="/images/default.png" alt="" />
-        <a href="/images/default.png" download>
+        <a href="/images/khoone-bemoon.jpg" download>
           <Button outline>دانلود قالب </Button>
         </a>
       </DownloadDefault>

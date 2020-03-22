@@ -1,9 +1,0 @@
-{
-  "files.exclude": {
-    "node_modules": true,
-    "public/workbox": true,
-    "**/.next/**": true
-  },
-  "editor.formatOnSave": true,
-  "typescript.tsdk": "node_modules/typescript/lib"
-}

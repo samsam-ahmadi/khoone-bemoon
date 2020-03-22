@@ -7,5 +7,6 @@ out
 dist
 .next
 .idea
+.vscode
 yarn-debug.log*
 yarn-error.log*

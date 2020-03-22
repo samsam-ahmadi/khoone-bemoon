@@ -17,7 +17,7 @@ const Container = styled(Box)`
     width: 1249px;
   }
   @media (min-width: ${p => p.theme.desktop}) {
-    width: 1889px;
+    width: 1650px;
   }
 `;
 export default Container;

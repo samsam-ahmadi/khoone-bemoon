@@ -35,5 +35,5 @@ jobs:
           F_USERNAME: ${{ secrets.FANDOGH_USERNAME }}
           F_PASSOWRD: ${{ secrets.FANDOGH_PASSWORD }}
         run: |
-          fandogh login --username F_USERNAME --password F_PASSOWRD
+          fandogh login --username $F_USERNAME --password $F_PASSOWRD
           fandogh service deploy --image khoonebemoon/khoonebemoon --version latest

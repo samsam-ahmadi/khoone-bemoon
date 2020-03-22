@@ -1,0 +1,11 @@
+{
+  "name": "khoone-bemoon",
+  "short_name": "khoone-bemoon",
+  "icons": [],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "natural",
+  "background_color": "#17C37B",
+  "description": "در کمپین آزاد #خونه_بمون برای جلوگیری از گسترش کرونا, با استفاده از قالب، عکس خودتو بکش، در اینستاگرام و توییتر منتشر کن و دوستاتو دعوت کن. یادتون نره دوستانتون رو به ماندن در خانه دعوت کنید.",
+  "theme_color": "#17C37B"
+}

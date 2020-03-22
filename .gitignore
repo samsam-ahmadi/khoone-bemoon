@@ -1,0 +1,11 @@
+node_modules/
+static
+*.log
+*.log.*
+ecosystem.json
+out
+dist
+.next
+.idea
+yarn-debug.log*
+yarn-error.log*

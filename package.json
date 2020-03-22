@@ -1,0 +1,66 @@
+{
+  "name": "khoone-bemoon",
+  "version": "0.1.0",
+  "firstName": "khoone-bemoon",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development next",
+    "devp": "cross-env NODE_ENV=production next",
+    "build": "next build",
+    "start": "next start",
+    "run:prd": "next build && cross-env NODE_ENV=production pm2 start server.js -i max -n run:prd",
+    "run:stg": "next build && cross-env NODE_ENV=staging pm2 start server.js -i max -n run:stg"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged "
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --config .prettierrc --write",
+      "git add"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "autoprefixer": "^9.7.4",
+    "cross-env": "^7.0.2",
+    "husky": "^4.2.3",
+    "isomorphic-unfetch": "^3.0.0",
+    "lint-staged": "^10.0.8",
+    "next": "9.3.0",
+    "next-fonts": "^1.0.3",
+    "next-manifest": "^3.0.1",
+    "next-offline": "^5.0.0",
+    "next-workbox-webpack-plugin": "^2.1.1",
+    "node-sass": "^4.13.1",
+    "postcss-easy-import": "^3.0.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "react-jss": "^10.0.4",
+    "styled-components": "^5.0.1",
+    "webpack-pwa-manifest": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@svgr/webpack": "^5.2.0",
+    "@types/next": "^9.0.0",
+    "@types/react": "^16.9.23",
+    "@types/react-paginate": "^6.2.1",
+    "@types/styled-components": "^5.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "babel-plugin-styled-components": "^1.10.7",
+    "prettier": "^1.19.1",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "typescript": "^3.8.3"
+  }
+}

@@ -12,9 +12,8 @@ export default function Footer(): ReactElement {
 
       <Box>
         <Box>
-          <p>
-            ساخته شده با <span>عشق</span>
-          </p>
+          <p>ساخته شده با</p>
+          <Heart />
         </Box>
         <Box justifyContent="flex-end">
           {socials.map((social, index) => (
@@ -49,6 +48,53 @@ const Logo = styled(Box)`
   img {
     width: 250px;
     height: 250px;
+  }
+`;
+
+const Heart = styled.div`
+  animation: heartbeat 1s infinite;
+  height: 25px;
+  position: relative;
+  top: 3px;
+  width: 25px;
+  &:before,
+  &:after {
+    position: absolute;
+    content: "";
+    background: ${p => p.theme.textColor.red};
+    border-radius: 40px 40px 0 0;
+    height: 18px;
+    left: 10px;
+    transform: rotate(-45deg);
+    top: 0;
+    transform-origin: 0 100%;
+    width: 12px;
+  }
+  &:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+
+  @keyframes heartbeat {
+    0% {
+      transform: scale(0.75);
+    }
+    20% {
+      transform: scale(1);
+    }
+    40% {
+      transform: scale(0.75);
+    }
+    60% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(0.75);
+    }
+    100% {
+      transform: scale(0.75);
+    }
   }
 `;
 

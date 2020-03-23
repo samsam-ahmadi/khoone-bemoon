@@ -72,6 +72,9 @@ ${normilize}
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  @media screen and (max-width:600px){
+  font-size: 15px;
+  }
 }
 
 body {

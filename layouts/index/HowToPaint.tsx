@@ -2,6 +2,7 @@ import React, { ReactElement } from "react";
 import styled from "styled-components";
 import Box from "components/Box";
 import Container from "components/Container";
+import toFa from "core/toFa";
 
 export default function HowToPaint(): ReactElement {
   return (
@@ -12,7 +13,7 @@ export default function HowToPaint(): ReactElement {
         <PaintsList justifyContent="space-evenly">
           {items.map((item, index) => (
             <ItemWrapper key={`item-how${index}`} column alignItems="center">
-              <span>{index + 1}</span>
+              <span>{toFa(index + 1)}</span>
               <p>{item}</p>
             </ItemWrapper>
           ))}

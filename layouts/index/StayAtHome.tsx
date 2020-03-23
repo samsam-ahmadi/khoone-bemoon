@@ -38,6 +38,7 @@ export default function StayAtHome(): ReactElement {
 
 const StayAtHomeWrapper = styled(Container)`
   margin-top: 40px;
+  min-height: 50vh;
   @media (max-width: ${p => p.theme.mobile}) {
     flex-direction: column;
     align-items: center;

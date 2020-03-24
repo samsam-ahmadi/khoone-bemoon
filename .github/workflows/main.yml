@@ -36,4 +36,4 @@ jobs:
           F_PASSOWRD: ${{ secrets.FANDOGH_PASSWORD }}
         run: |
           fandogh login --username $F_USERNAME --password $F_PASSOWRD
-          fandogh service deploy --image khoonebemoon/khoonebemoon --version latest --name "khoone-bemoon" --port 3000 --hosts "khoonebemoon.com" --hosts "www.khoonebemoon.com" --image-pull-policy "Always"
+          fandogh service deploy --image khoonebemoon/khoonebemoon --version latest --name "khoone-bemoon" --port 3000 --hosts "khoonebemoon.com" --hosts "www.khoonebemoon.com" --image-pull-policy "Always" -d

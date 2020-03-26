@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "amin3mej",
+      "name": "S.M.A. Djawadi",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4997188?v=4",
+      "profile": "https://github.com/amin3mej",
+      "contributions": [
+        "infra"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "khoone-bemoon",
+  "projectOwner": "amin3mej",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

@@ -6,12 +6,30 @@
   "commit": false,
   "contributors": [
     {
+      "login": "samsam-ahmadi",
+      "name": "Samsam Ahmadi",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18388480?v=4",
+      "profile": "https://killthejs.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "amin3mej",
       "name": "S.M.A. Djawadi",
       "avatar_url": "https://avatars1.githubusercontent.com/u/4997188?v=4",
-      "profile": "https://github.com/amin3mej",
+      "profile": "https://twitter.com/flaskam",
       "contributions": [
         "infra"
+      ]
+    },
+    {
+      "login": "amin-najafi",
+      "name": "Amin Najafi",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1237842799589863430/dbm1nkKt.jpg",
+      "profile": "https://aminnajafi.design",
+      "contributions": [
+        "design"
       ]
     }
   ],
